@@ -1,7 +1,8 @@
+
 # CNN Model for Diabetic Retinopathy Detection
+Sharan Subramanian, 9/11/2023
 
 Materials for Research Paper, *Convolutional Neural Network Model for Diabetic Retinopathy Feature Extraction and Classification*
-
 ## Description
 This code provides a deep learning solution to diagnose diabetic retinopathy from fundus images. Diabetic retinopathy is an ocular manifestation of diabetes that affects blood vessels in the retina. The code uses a convolutional neural network (CNN) to classify images into various stages of the disease.
 
@@ -37,15 +38,20 @@ This code provides a deep learning solution to diagnose diabetic retinopathy fro
 8. Visualization: A plot depicting the training loss, validation loss, training accuracy, and validation accuracy over epochs is generated and saved to the drive.
 
 ## Functions
-classes_to_int(): Convert class labels into integers.
-int_to_classes(): Convert integers back into class labels.
-preprocessTrainData(): Preprocess training images.
-readTrainCsv(): Read the CSV file that contains image labels.
-createModel(): Define the CNN model architecture.
-evaluate_model(): Evaluate the trained model on a given test set.
+`classes_to_int()`: Convert class labels into integers.
+
+`int_to_classes()`: Convert integers back into class labels.
+
+`preprocessTrainData()`: Preprocess training images.
+
+`readTrainCsv()`: Read the CSV file that contains image labels.
+
+`createModel()`: Define the CNN model architecture.
+
+`evaluate_model()`: Evaluate the trained model on a given test set.
+
 ## Results
 At the end of training, the model is saved to your Google Drive. Additionally, a plot displaying the loss and accuracy over epochs is saved. The model's performance on the training set is also displayed in a table.
-
 ## Notes
 - Ensure that your Google Drive contains the necessary dataset and the CSV file for annotations.
 - Make sure to adjust paths accordingly if not using Google Colab or if the dataset is stored in a different location.
